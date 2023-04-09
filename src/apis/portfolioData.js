@@ -6,34 +6,11 @@ import cars from "../assets/images/portfolio/cars.png";
 import barbecue from "../assets/images/portfolio/barbecue.png";
 import bakery from "../assets/images/portfolio/bakery.png";
 import userDetails from "../assets/images/portfolio/userDetails.png";
+import hotel from "../assets/images/portfolio/hotel.png";
 
 const portfolioData = [
   {
     id: 1,
-    category: "reactApp",
-    link: "https://imdbsmall.netlify.app/",
-    image: imdb,
-    title: "IMDB Clone",
-    description: "imdb clone using react and APIs",
-  },
-  {
-    id: 2,
-    category: "reactApp",
-    link: "https://education-dk.netlify.app/",
-    image: education,
-    title: "Eucation Website",
-    description: "simple education website using react js",
-  },
-  {
-    id: 3,
-    category: "reactApp",
-    link: "https://movieshuub.netlify.app/",
-    image: moviesSearch,
-    title: "Movies search App",
-    description: "movie search app using react and APIs",
-  },
-  {
-    id: 4,
     category: "webDesign",
     link: "https://themes.workdo.io/html/barbecue/",
     image: barbecue,
@@ -41,7 +18,7 @@ const portfolioData = [
     description: "barbecue grills Website using html, css and jquery",
   },
   {
-    id: 5,
+    id: 2,
     category: "webDesign",
     link: "https://themes.workdo.io/html/bakery/",
     image: bakery,
@@ -49,7 +26,40 @@ const portfolioData = [
     description: "bakery multi web pages using html,css and javascript",
   },
   {
+    id: 3,
+    category: "reactApp",
+    link: "https://userdetailss.netlify.app/",
+    image: userDetails,
+    title: "user Details",
+    description: "user details CURD opration with Redux Toolkit",
+  },
+
+  {
+    id: 4,
+    category: "reactApp",
+    link: "https://imdbsmall.netlify.app/",
+    image: imdb,
+    title: "IMDB Clone",
+    description: "imdb clone using react and APIs",
+  },
+  {
+    id: 5,
+    category: "reactApp",
+    link: "https://education-dk.netlify.app/",
+    image: education,
+    title: "Eucation Website",
+    description: "simple education website using react js",
+  },
+  {
     id: 6,
+    category: "webDesign",
+    link: "https://themes.workdo.io/html/hotelsholiday/",
+    image: hotel,
+    title: "Hotel and Holiday",
+    description: "hotel and holiday multi web pages using html,css and jquery",
+  },
+  {
+    id: 7,
     category: "webDesign",
     link: "https://themes.workdo.io/html/dentist/",
     image: dentist,
@@ -57,7 +67,7 @@ const portfolioData = [
     description: "destist multi web pages using html,css and javascrip",
   },
   {
-    id: 7,
+    id: 8,
     category: "webDesign",
     link: "https://themes.workdo.io/html/cars/",
     image: cars,
@@ -65,12 +75,12 @@ const portfolioData = [
     description: "destist multi web pages using html,css and javascript",
   },
   {
-    id: 8,
+    id: 9,
     category: "reactApp",
-    link: "https://userdetailss.netlify.app/",
-    image: userDetails,
-    title: "user Details",
-    description: "user details CURD opration with Redux Toolkit",
+    link: "https://movieshuub.netlify.app/",
+    image: moviesSearch,
+    title: "Movies search App",
+    description: "movie search app using react and APIs",
   },
 ];
 

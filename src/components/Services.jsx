@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Title from "./Title";
 import { BsFillPaletteFill } from "react-icons/bs";
 import { AiOutlineDesktop, AiOutlineMobile } from "react-icons/ai";
-import { HiPhotograph } from "react-icons/hi";
 import { FaReact } from "react-icons/fa";
 
 const Services = () => {
@@ -40,13 +39,6 @@ const Services = () => {
       title: "Responsive Design",
       description:
         "Knowledge of media queries to adjust the layout according to the screen size Understanding of the mobile-first approach and designing for smaller screens first",
-    },
-    {
-      id: 5,
-      icon: <HiPhotograph />,
-      title: "Photoshop Work",
-      description:
-        "Creative & Eye-catching Designs Editing & Retouching Skills",
     },
   ];
 
