@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
-// import myCV from "../assets/docs/Dinesh-Baraiya-Resume-React.pdf";
+import myCV from "../assets/docs/Dinesh_Baraiya_CV.pdf";
 
 const About = () => {
   const titleName = {
@@ -29,7 +29,7 @@ const About = () => {
     {
       id: 4,
       label: "From",
-      value: "gujarat, india ",
+      value: "surat, gujarat, india",
     },
   ];
 
@@ -45,14 +45,15 @@ const About = () => {
                 frontend web developer
               </h3>
               <p>
-                I help you build brand for your business at an affordable price.
-                Thousands of clients have procured exceptional results while
-                working with our dedicated team. when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book.
+                I am proficient in HTML, CSS, JavaScript, and have expertise in
+                popular frontend frameworks like React. Collaborating closely
+                with clients, I strive to understand their unique goals and
+                translate them into intuitive interfaces and captivating
+                designs.
               </p>
               <p>
-                Delivering work within time and budget which meets client's
-                requirements is our moto.
+                Constantly exploring new trends and technologies to deliver
+                cutting-edge solutions as a Frontend Developer.
               </p>
             </div>
           </div>
@@ -67,9 +68,9 @@ const About = () => {
                 </li>
               ))}
             </ul>
-            {/* <a href={myCV} download className="main-btn" data-aos="zoom-in">
+            <a href={myCV} download className="main-btn" data-aos="zoom-in">
               download CV
-            </a> */}
+            </a>
           </div>
         </Row>
       </div>

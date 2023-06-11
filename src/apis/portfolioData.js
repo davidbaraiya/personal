@@ -31,7 +31,8 @@ const portfolioData = [
     link: "https://userdetailss.netlify.app/",
     image: userDetails,
     title: "user Details",
-    description: "user details CURD opration with Redux Toolkit",
+    description:
+      "user details CURD opration with Redux Toolkit and localstorage",
   },
 
   {

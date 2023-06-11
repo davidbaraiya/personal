@@ -4,7 +4,6 @@ import styled from "styled-components";
 import background from "../assets/images/background.jpg";
 import { GrDown } from "react-icons/gr";
 import { Link } from "react-scroll";
-// import TypeWriterEffect from "react-typewriter-effect";
 import Typewriter from "typewriter-effect";
 
 const Banner = () => {
@@ -38,7 +37,7 @@ const Banner = () => {
               />
             </h1>
           </div>
-          <p>based in gujarat, india.</p>
+          <p>based in surat, gujarat, india.</p>
           <Link to="contact" className="main-btn">
             hire me
           </Link>

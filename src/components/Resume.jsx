@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
 import MySkill from "./MySkill";
-// import { FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import myEducationData from "../apis/myEducationData";
 import myExperianceData from "../apis/myExperianceData";
-// import myCV from "../assets/docs/Dinesh-Baraiya-Resume-React.pdf";
+import myCV from "../assets/docs/Dinesh_Baraiya_CV.pdf";
 
 const Resume = () => {
   const titleName = {
@@ -49,11 +49,11 @@ const Resume = () => {
         </div>
         <h3 className="mb-4">my skills</h3>
         <MySkill />
-        {/* <div className="text-center" data-aos="zoom-in">
+        <div className="text-center" data-aos="zoom-in">
           <a href={myCV} download={myCV} className="main-btn">
             Download CV <FaDownload />
           </a>
-        </div> */}
+        </div>
       </div>
     </Section>
   );
