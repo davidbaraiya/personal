@@ -7,6 +7,7 @@ import barbecue from "../assets/images/portfolio/barbecue.png";
 import bakery from "../assets/images/portfolio/bakery.png";
 import userDetails from "../assets/images/portfolio/userDetails.png";
 import hotel from "../assets/images/portfolio/hotel.png";
+import eshop from "../assets/images/portfolio/Eshop.png";
 
 const portfolioData = [
   {
@@ -24,6 +25,15 @@ const portfolioData = [
     image: bakery,
     title: "bakery website",
     description: "bakery multi web pages using html,css and javascript",
+  },
+  {
+    id: 10,
+    category: "reactApp",
+    link: "https://eshop-beige.vercel.app/",
+    image: eshop,
+    title: "e commarce app",
+    description:
+      "eshop with login, singup with email, google and facebook with firebase. add to cart, checkout, filer product with price range, price, sort by name and rating ascending and Descending. add to wishist when user is login. using react 18, redux toolkit, firebase, APIs, BS5, MUI.",
   },
   {
     id: 3,
